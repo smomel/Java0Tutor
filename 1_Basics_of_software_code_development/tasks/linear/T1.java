@@ -1,12 +1,12 @@
 /*
-    Задача:
+	Задача:
     Найдите значение функции: z = ((a - 3) * b / 2) + c
 */
 import java.util.Scanner;
 
 class T1 {
     public static void main (String[] args) {
-        // объявляем переменные вещественного типа без начальной инициализации
+    	// объявляем переменные вещественного типа без начальной инициализации
         float a, b, c, z;
         Scanner input = new Scanner(System.in);
 
@@ -23,5 +23,6 @@ class T1 {
 
         // выводим на экран результат вычисления
         System.out.println("Результат вычисления формулы: " + z);
+        input.close();
     }
 }
