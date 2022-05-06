@@ -4,3 +4,12 @@
 	Оригинал задачи содержит графическое отображение квадратного корня.
 	Условие задачи в файле "Practice (tasks).pdf" в разделе "Линейные программы" под номером 2
 */
+
+public class T2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

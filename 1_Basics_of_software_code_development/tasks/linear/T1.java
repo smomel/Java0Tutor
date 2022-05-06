@@ -4,7 +4,7 @@
 */
 import java.util.Scanner;
 
-class T1 {
+public class T1 {
     public static void main (String[] args) {
     	// объявляем переменные вещественного типа без начальной инициализации
         float a, b, c, z;
