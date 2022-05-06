@@ -11,8 +11,7 @@ public class T1 {
 		int angleA, angleB;
 		Scanner input = new Scanner(System.in);
 		
-		
-		
+				
 	}
 
 }
