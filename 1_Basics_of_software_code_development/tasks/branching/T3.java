@@ -6,9 +6,9 @@ public class T3 {
 
 	public static void main(String[] args) {
 		// задаем координаты точек
-		double x1 = -4, y1 = 4;
-		double x2 = -1, y2 = -1;
-		double x3 = 2, y3 = -6;
+		double x1 = -3, y1 = -3;
+		double x2 = 8, y2 = -1;
+		double x3 = 13, y3 = 0;
 		
 		double max, katet1, katet2;
 		double angleA, angleB;
