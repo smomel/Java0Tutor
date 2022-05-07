@@ -3,22 +3,12 @@
  * он прямоугольным.
  */
 
-import java.util.Scanner;
-
 public class T1 {
 
 	public static void main(String[] args) {
-		int angleA, angleB;
-		Scanner input = new Scanner(System.in);
-		
-		// запрашиваем у пользователя ввод начения угла А
-		System.out.print("Введите значение угла 'A': ");
-		angleA = input.nextInt();
-		
-		// запрашиваем у пользователя ввод значения угла В
-		System.out.print("Введите значение угла 'B': ");
-		angleB = input.nextInt();
-		
+		int angleA = 45;
+		int angleB = 45;
+				
 		// треугольник будет существовать, если сумма его углов равна 180 градусам
 		// следовательно нужно проверить сумму двух углов, и если она не более 180, то треугольник существует
 		if (angleA + angleB < 180) {
