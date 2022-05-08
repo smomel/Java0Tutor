@@ -16,24 +16,17 @@ public class T2 {
 		
 		// просим пользователя задать значения переменных
 		System.out.print("Введите значение переменной 'a': ");
-		a = input.nextFloat();
+		a = input.nextDouble();		
 		
-		// проверим, чтобы а не равнялось 0, т.к. будет деление на 0
-		if ( a == 0 ) {
-			// выдаем предупреждение об ошибке и заканчиваем работу программы
-			System.out.print("Ошибка деления на 0!. Переменная 'a' не может иметь нулевое значение.");
-		} else {
-			// просим задать остальные переменные
-			System.out.print("Введите значение переменной 'b': ");
-			b = input.nextFloat();
+		System.out.print("Введите значение переменной 'b': ");
+		b = input.nextDouble();
 			
-			System.out.print("Введите значение переменной 'c': ");
-			c = input.nextFloat();
-			
-			// вычисляем значение выражения
-			z = ((b + Math.sqrt(Math.pow(b, 2) + 4 * a * c)) / (2 * a)) - Math.pow(a, 3) * c + Math.pow(b, -2);
-			System.out.print("Значение выражения равно: " + z);
-		}
+		System.out.print("Введите значение переменной 'c': ");
+		c = input.nextDouble();		
+		
+		// вычисляем значение выражения
+		z = ((b + Math.sqrt(Math.pow(b, 2) + 4 * a * c)) / (2 * a)) - Math.pow(a, 3) * c + Math.pow(b, -2);
+		System.out.print("Значение выражения равно: " + z);
 		
 		input.close();
 	}
