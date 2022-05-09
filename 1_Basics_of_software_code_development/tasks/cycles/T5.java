@@ -6,16 +6,20 @@
 public class T5 {
 
 	public static void main(String[] args) {
-		int n = 5, e = 5;
-		double[] mas = new double[n];
+		int n = 10;
+		double e = 0.00261, sum, an;
 
-		// сформируем числовой ряд
 		System.out.println("Числовой ряд из " + n + " элементов: ");
 		
-		for (int i = 0; i < n; i++) {
-			mas[i] = 1 / Math.pow(2, i+1) + 1 / Math.pow(3, i+1);
-			System.out.print(mas[i] + ", ");
+		sum = 0;
+		for (int i = 1; i <= n; i++) {
+			an = Math.pow(2, -i) + Math.pow(3, -i); // вычисляем очередной член ряда
+			System.out.print(an + ", ");			// выводим его на экран
+			
+			if (Math.abs(an) >= e) sum += an;		// если модуль больше заданной точности, суммируем
 		}
+		
+		System.out.println("\nсумма членов ряда, больших по модулю " + e + " равна " + sum);
 		
 	}
 
