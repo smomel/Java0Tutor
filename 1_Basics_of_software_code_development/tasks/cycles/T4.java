@@ -7,7 +7,6 @@ public class T4 {
 	public static void main(String[] args) {
 		long res = 1;
 		
-		// надо определить момент, когда происходит выход за пределы размера числа и прекратить программу
 		for (int i = 1; i <= 200; i++) {
 			res *= (i * i);
 		}
