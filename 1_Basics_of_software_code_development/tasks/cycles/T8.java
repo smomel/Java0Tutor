@@ -5,7 +5,7 @@
 public class T8 {
 
 	public static void main(String[] args) {
-		int num1 = 123, num2 = 456;
+		int num1 = 2223, num2 = 12;
 		char ch;
 		String strRes = "";
 		
@@ -19,6 +19,9 @@ public class T8 {
 		for (int i = 0; i < str1.length(); i++) {
 			// для удобства записываем символ в переменную
 			ch = str1.charAt(i);
+			
+			// если ранее мы уже нашли совпадающую цифру, то переходим на следующий шаг
+			if (strRes.indexOf(ch) != -1) continue;
 			
 			// последовательно перебираем символы второго числа и сравниваем с символом
 			// при этом, если нашли совпадение, то дальше перебирать смысла нет
@@ -35,7 +38,7 @@ public class T8 {
 		
 		// выводим результат
 		if (strRes != "") {
-			System.out.print(" есть одинаковые цифры: " + strRes);
+			System.out.print(" есть следующие одинаковые цифры: " + strRes);
 		} else {
 			System.out.print(" нет одинаковых цифр.");
 		}
