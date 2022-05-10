@@ -10,7 +10,7 @@ public class T7 {
 		int max, tmp;
 		
 		an = new int[n];
-		System.out.println("Элементы массива:");
+		System.out.println("Исходные числа:");
 		
 		// заполним массив случайными натуральными числами
 		for (int i = 0; i < n; i++) {
