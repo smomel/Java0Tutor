@@ -11,10 +11,16 @@ public class T5 {
 		System.out.println("Полученная матрица: ");
 		
 		// формируем матрицу	
-		for (int i = 0; i < arr.length; i++) {
-			for (int j = 0; j < arr.length - i; j ++) {				
-				arr[i][j] = i + 1;				
+		int k = 0;
+		
+		for (int i = 0; i < arr.length; i++) {			
+			
+			for (int j = k; j < arr.length - k; j ++) {				
+				arr[i][j] = 1;
 			}
+			
+			if ((i + 1) < n/2) k++;
+			else if ((i + 1) > n/2) k--; 
 		}
 		
 		// выведем результат на экран
