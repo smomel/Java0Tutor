@@ -9,7 +9,7 @@ public class T3 {
 		int numNegative = 0, numPositive = 0, numZero = 0, n = 50, z;
 		
 		an = new int[n];
-		System.out.println("Элементы массива:");
+		System.out.println("Массив действительных чисел:");
 		
 		// заполним массив случайными натуральными числами
 		for (int i = 0; i < n; i++) {
