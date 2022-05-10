@@ -10,7 +10,7 @@ public class T5 {
 				
 		System.out.println("Полученная матрица: ");
 		
-		// формируем матрицу и выводим на экран		
+		// формируем матрицу	
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr.length - i; j ++) {				
 				arr[i][j] = i + 1;				
