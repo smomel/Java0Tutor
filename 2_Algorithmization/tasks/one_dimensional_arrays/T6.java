@@ -11,7 +11,7 @@ public class T6 {
 		boolean isSimple;
 		
 		an = new float[n];
-		System.out.println("Элементы массива:");
+		System.out.println("Исходная последовательность:");
 		
 		// заполним массив случайными натуральными числами
 		for (int i = 0; i < n; i++) {
