@@ -9,7 +9,7 @@ public class T4 {
 		int max, min;
 		
 		an = new int[n];
-		System.out.println("Элементы массива:");
+		System.out.println("Даны действительные числа:");
 		
 		// заполним массив случайными натуральными числами
 		for (int i = 0; i < n; i++) {
@@ -31,7 +31,7 @@ public class T4 {
 		an[indMax] = min;
 		an[indMin] = max;		
 		
-		System.out.println("Максимальный элемент: " + max + ", минимальный элемент: " + min + ". Массив после изменения:");
+		System.out.println("Максимальное число: " + max + ", минимальное число: " + min + ". Последовательность после изменения:");
 		
 		for (int i = 0; i < n; i++) {			
 			System.out.print(an[i] + " ");
