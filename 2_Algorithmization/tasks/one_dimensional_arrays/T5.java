@@ -8,7 +8,7 @@ public class T5 {
 		int n = 20;
 		
 		an = new int[n];
-		System.out.println("Элементы массива:");
+		System.out.println("Целые числа:");
 		
 		// заполним массив случайными натуральными числами
 		for (int i = 0; i < n; i++) {
